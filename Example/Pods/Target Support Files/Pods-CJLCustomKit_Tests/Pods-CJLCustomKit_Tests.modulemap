@@ -1,0 +1,6 @@
+framework module Pods_CJLCustomKit_Tests {
+  umbrella header "Pods-CJLCustomKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

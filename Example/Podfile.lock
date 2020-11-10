@@ -1,0 +1,16 @@
+PODS:
+  - CJLCustomKit (0.1.0)
+
+DEPENDENCIES:
+  - CJLCustomKit (from `../`)
+
+EXTERNAL SOURCES:
+  CJLCustomKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJLCustomKit: 0d2448b7ffade59ba8bb422a10fc0620c54af1ac
+
+PODFILE CHECKSUM: a6aa5b37ad784e2364f03d1085f84ba589363d64
+
+COCOAPODS: 1.10.0
