@@ -7,79 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BCC87E98E85214F45C65E34296A7302 /* CJLCustomKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D0403B9ECDCFB0AB3AB192E8628008 /* CJLCustomKit-dummy.m */; };
-		0CA5887C8DDFF796D6010C833A06C045 /* CJLCustomKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D34C94DDD609F8E81E9C4DEB7A1C38B3 /* CJLCustomKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11F3F131C7E475324C7E6CEA707166D1 /* CJLCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A742E69C7E91EF2FFC2B62F5A5C1D5 /* CJLCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		162B2C47F49DFAFD52226BA8C8F392D8 /* CJLCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0FBAAE4E899F2AA5455EACCFB6FBCA /* CJLCountDownButton.m */; };
-		1BF17A3EA03722E06A4175C6959C175D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1997D4A163AAC87CFA8089E445AFCBC6 /* CJLConditionLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 397DC5F2F8F692C9AD429080E9814AF4 /* CJLConditionLock.m */; };
+		28C121C88171D328BCC22A19693A2503 /* NSObject+CJLKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C9B501C8ABD7FA580356E02224199A /* NSObject+CJLKVC.m */; };
+		2A7A850E26BA0C08C4C5C2E1C7ED22D3 /* NSObject+CJLKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 303984F1C076C5437488AAB90DA5BD7B /* NSObject+CJLKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F958C5B5979B7A3885B156182A313A7 /* Pods-CJLCustomKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1EA475158461294830F7D142782691 /* Pods-CJLCustomKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		464EFD206BFABA0C51F8279635FCA068 /* NSObject+CJLKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA95BE57A71BFE75DDDC16C124CE23F /* NSObject+CJLKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D64E5AA23E4996FDC2D4525DA22914F /* Pods-CJLCustomKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DDB1997ABD5CAF09FA288286D4276C /* Pods-CJLCustomKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F5FC958469DFE2E3375A98D990EE7C5 /* CJLConditionLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 89831D044BD5E90CB94EFCB8E058A308 /* CJLConditionLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63C60BC3151F95E4597D367F389FF366 /* Pods-CJLCustomKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27053E8A27C517253E1E3D971A7F4F00 /* Pods-CJLCustomKit_Tests-dummy.m */; };
 		6E24051B6E5A57E2F361908B36F08982 /* Pods-CJLCustomKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1656E0CEAFAE9A5DA87A86758BBDAB4F /* Pods-CJLCustomKit_Example-dummy.m */; };
+		96691492A6E8BB4EDCA3E32FC3784796 /* CJLCustomKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1ACDB15A79FEA5E892D1A91FE14354E /* CJLCustomKit-dummy.m */; };
 		985823869EA5436E79D83CA04B5BD7B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A04AEA46BE719419E1E344A7E1B460A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A1F265AD526D8AAD9E12582E2CA20F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A7BBA785D4A04A8F26C0C2DF7F645A26 /* CJLCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF5352CFB6069D57D8D74F03927FC2F /* CJLCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C9682EE17C277B0A2A5DCFDA222274 /* CJLCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A913D5BC0BB3E83A3D000DEAB536B271 /* CJLCountDownButton.m */; };
+		DF9A6D92A1CF611A54A40D8638897422 /* NSObject+CJLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC4A8C071A69C4387DBA8CF0A99800D /* NSObject+CJLKVO.m */; };
+		EB8EE6E12C5BC607703E72957FBDA07E /* CJLCustomKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BC3D7527CE1AB73DBA148EB8D27183 /* CJLCustomKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BDA650456328D810233571200034726 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C1E2E5AB4776E8E04DA4E6F68922A16;
-			remoteInfo = "Pods-CJLCustomKit_Example";
-		};
-		30C1463C6DD2584718D4D9F2874C71D8 /* PBXContainerItemProxy */ = {
+		404DF41ADF353F9D167C9B6E18958844 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C7583F6D04C80711F9146B9167F6BDE3;
 			remoteInfo = CJLCustomKit;
 		};
+		6E7CFD5B9E0699F192348FB2C3D9F8E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1E2E5AB4776E8E04DA4E6F68922A16;
+			remoteInfo = "Pods-CJLCustomKit_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BA95BE57A71BFE75DDDC16C124CE23F /* NSObject+CJLKVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CJLKVC.h"; path = "CJLCustomKit/Classes/NSObject+CJLKVC.h"; sourceTree = "<group>"; };
+		1017DF4E1063E80CE4525651E3685650 /* CJLCustomKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJLCustomKit-prefix.pch"; sourceTree = "<group>"; };
+		11BC3D7527CE1AB73DBA148EB8D27183 /* CJLCustomKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJLCustomKit-umbrella.h"; sourceTree = "<group>"; };
 		1656E0CEAFAE9A5DA87A86758BBDAB4F /* Pods-CJLCustomKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJLCustomKit_Example-dummy.m"; sourceTree = "<group>"; };
 		18527D5184BFA3152CAACDA72D737663 /* Pods-CJLCustomKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJLCustomKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EC4A8C071A69C4387DBA8CF0A99800D /* NSObject+CJLKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CJLKVO.m"; path = "CJLCustomKit/Classes/NSObject+CJLKVO.m"; sourceTree = "<group>"; };
 		22AA5EC1C5C84007EE125648EC8B941D /* Pods-CJLCustomKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJLCustomKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		247F5423A9AF13DD72FD3E475004642F /* Pods-CJLCustomKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJLCustomKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		27053E8A27C517253E1E3D971A7F4F00 /* Pods-CJLCustomKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJLCustomKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		290169001085A7104D7EACF23B375447 /* CJLCustomKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJLCustomKit.modulemap; sourceTree = "<group>"; };
-		322445508BB76A8E87C18DF0E1557CA3 /* CJLCustomKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJLCustomKit.release.xcconfig; sourceTree = "<group>"; };
+		303984F1C076C5437488AAB90DA5BD7B /* NSObject+CJLKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CJLKVO.h"; path = "CJLCustomKit/Classes/NSObject+CJLKVO.h"; sourceTree = "<group>"; };
 		32902E519205E1B314F922ECB0C401B0 /* Pods-CJLCustomKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJLCustomKit_Tests.modulemap"; sourceTree = "<group>"; };
 		32A16B1E48A6BE2D806B7E61FA7BCCC0 /* Pods-CJLCustomKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJLCustomKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33F26528CA86AACC34008CA3C71AA12A /* Pods-CJLCustomKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJLCustomKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		397DC5F2F8F692C9AD429080E9814AF4 /* CJLConditionLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJLConditionLock.m; path = CJLCustomKit/Classes/CJLConditionLock.m; sourceTree = "<group>"; };
 		401DCA2E6769BFABE3CFEF215BC7F2DD /* Pods-CJLCustomKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJLCustomKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46C9B501C8ABD7FA580356E02224199A /* NSObject+CJLKVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CJLKVC.m"; path = "CJLCustomKit/Classes/NSObject+CJLKVC.m"; sourceTree = "<group>"; };
 		49D856B756CA9F6A3674F13EA374191C /* Pods-CJLCustomKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJLCustomKit_Example.modulemap"; sourceTree = "<group>"; };
 		4DEEB5CEDD3A66796517487A1EBADE42 /* Pods-CJLCustomKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJLCustomKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		52A7291DC2EE071AAFFFFA5B2D2DAD95 /* Pods-CJLCustomKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJLCustomKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5C0FBAAE4E899F2AA5455EACCFB6FBCA /* CJLCountDownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJLCountDownButton.m; path = CJLCustomKit/Classes/CJLCountDownButton.m; sourceTree = "<group>"; };
-		68C34674D184BA086E105EEFD883A945 /* Pods_CJLCustomKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJLCustomKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E20EA68E9FF713B59807ED33F141BFA /* CJLCustomKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CJLCustomKit.modulemap; sourceTree = "<group>"; };
+		68C34674D184BA086E105EEFD883A945 /* Pods_CJLCustomKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJLCustomKit_Example.framework; path = "Pods-CJLCustomKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C50B11B7D753C17C89DB2D545C7319 /* CJLCustomKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJLCustomKit.debug.xcconfig; sourceTree = "<group>"; };
 		6D1EA475158461294830F7D142782691 /* Pods-CJLCustomKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJLCustomKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		71DE1BAB8AE75F151E38247D9F739D6E /* CJLCustomKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJLCustomKit-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80B3F42D9DF189C5AC885AAC7DFBB37B /* CJLCustomKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CJLCustomKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		80DAEABDCAE667A90F3CD9FB861FA8D7 /* Pods-CJLCustomKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJLCustomKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89644E730FF22252B2DA93A68EB1F271 /* Pods_CJLCustomKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJLCustomKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BA92D8BD47203AD15C1399F2478626F /* CJLCustomKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJLCustomKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FD92DC69D5EAB221C376BE214B4190E /* CJLCustomKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJLCustomKit.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A58213CFEADAD76250AFA601567D9B88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CE697C1AB1321370109AF28A9CC2B1D7 /* CJLCustomKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJLCustomKit-Info.plist"; sourceTree = "<group>"; };
-		D1D0403B9ECDCFB0AB3AB192E8628008 /* CJLCustomKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJLCustomKit-dummy.m"; sourceTree = "<group>"; };
-		D34C94DDD609F8E81E9C4DEB7A1C38B3 /* CJLCustomKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJLCustomKit-umbrella.h"; sourceTree = "<group>"; };
-		D57F943CBDBB726AFCC718073CB73F3A /* CJLCustomKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJLCustomKit-prefix.pch"; sourceTree = "<group>"; };
+		894D33591EC44D0879FCE44781340ACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		89644E730FF22252B2DA93A68EB1F271 /* Pods_CJLCustomKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJLCustomKit_Tests.framework; path = "Pods-CJLCustomKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89831D044BD5E90CB94EFCB8E058A308 /* CJLConditionLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJLConditionLock.h; path = CJLCustomKit/Classes/CJLConditionLock.h; sourceTree = "<group>"; };
+		8BA92D8BD47203AD15C1399F2478626F /* CJLCustomKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJLCustomKit.framework; path = CJLCustomKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF5352CFB6069D57D8D74F03927FC2F /* CJLCountDownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJLCountDownButton.h; path = CJLCustomKit/Classes/CJLCountDownButton.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A913D5BC0BB3E83A3D000DEAB536B271 /* CJLCountDownButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJLCountDownButton.m; path = CJLCustomKit/Classes/CJLCountDownButton.m; sourceTree = "<group>"; };
+		B0067EFE2DF6B406458D5AD86D6D4F27 /* CJLCustomKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CJLCustomKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1ACDB15A79FEA5E892D1A91FE14354E /* CJLCustomKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJLCustomKit-dummy.m"; sourceTree = "<group>"; };
+		BCBB29472E921C8AC265FD8F521D6600 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D7DDB1997ABD5CAF09FA288286D4276C /* Pods-CJLCustomKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJLCustomKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC40B780B64719A0B23EE7EB90BD0802 /* Pods-CJLCustomKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJLCustomKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5457DEBC42A4AD2821EDB67FDAE16B1 /* CJLCustomKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJLCustomKit.release.xcconfig; sourceTree = "<group>"; };
 		F1F415F5E68EC83998F840C7CC3710C3 /* Pods-CJLCustomKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJLCustomKit_Example-Info.plist"; sourceTree = "<group>"; };
-		F7A742E69C7E91EF2FFC2B62F5A5C1D5 /* CJLCountDownButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJLCountDownButton.h; path = CJLCustomKit/Classes/CJLCountDownButton.h; sourceTree = "<group>"; };
-		FCD1FA538D6407B5147BBE7415E8EDC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20FD3F737E6622BCADBECA752284A867 /* Frameworks */ = {
+		19D59098AE11FF54F70B7C66B5527998 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF17A3EA03722E06A4175C6959C175D /* Foundation.framework in Frameworks */,
+				A04AEA46BE719419E1E344A7E1B460A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +114,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1ECDBB3B35071547153E57890DD71F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E20EA68E9FF713B59807ED33F141BFA /* CJLCustomKit.modulemap */,
+				B1ACDB15A79FEA5E892D1A91FE14354E /* CJLCustomKit-dummy.m */,
+				71DE1BAB8AE75F151E38247D9F739D6E /* CJLCustomKit-Info.plist */,
+				1017DF4E1063E80CE4525651E3685650 /* CJLCustomKit-prefix.pch */,
+				11BC3D7527CE1AB73DBA148EB8D27183 /* CJLCustomKit-umbrella.h */,
+				69C50B11B7D753C17C89DB2D545C7319 /* CJLCustomKit.debug.xcconfig */,
+				E5457DEBC42A4AD2821EDB67FDAE16B1 /* CJLCustomKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CJLCustomKit";
+			sourceTree = "<group>";
+		};
 		41E4CE2CF8E6467F0A306EAE6DA2D646 /* Pods-CJLCustomKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,12 +145,12 @@
 			path = "Target Support Files/Pods-CJLCustomKit_Tests";
 			sourceTree = "<group>";
 		};
-		55979BE585C9866AA165A58BE2156943 /* Pod */ = {
+		468791C438C4AFAC24FAE8593C75F060 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				80B3F42D9DF189C5AC885AAC7DFBB37B /* CJLCustomKit.podspec */,
-				A58213CFEADAD76250AFA601567D9B88 /* LICENSE */,
-				FCD1FA538D6407B5147BBE7415E8EDC7 /* README.md */,
+				B0067EFE2DF6B406458D5AD86D6D4F27 /* CJLCustomKit.podspec */,
+				894D33591EC44D0879FCE44781340ACF /* LICENSE */,
+				BCBB29472E921C8AC265FD8F521D6600 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -146,6 +173,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		893035AE911AF70BD33F7BBCF393DFBF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB83298E7288FAF480F1F9BE94BEC40A /* CJLCustomKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		C246B479E447EEAABB66B54F110E0006 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DE1E67F33315834E8C4F1B94CF7BB422 /* Development Pods */,
+				893035AE911AF70BD33F7BBCF393DFBF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				68BEED75178CA909031DA6C765387DBE /* Products */,
 				C246B479E447EEAABB66B54F110E0006 /* Targets Support Files */,
@@ -172,18 +207,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7420C9B063BD27C78E4EDB6A1820D67 /* CJLCustomKit */ = {
-			isa = PBXGroup;
-			children = (
-				F7A742E69C7E91EF2FFC2B62F5A5C1D5 /* CJLCountDownButton.h */,
-				5C0FBAAE4E899F2AA5455EACCFB6FBCA /* CJLCountDownButton.m */,
-				55979BE585C9866AA165A58BE2156943 /* Pod */,
-				F4018075B47784D939A078335EE1F689 /* Support Files */,
-			);
-			name = CJLCustomKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		DD0E081FEB7E102A66E1F36806537A20 /* Pods-CJLCustomKit_Example */ = {
@@ -203,27 +226,22 @@
 			path = "Target Support Files/Pods-CJLCustomKit_Example";
 			sourceTree = "<group>";
 		};
-		DE1E67F33315834E8C4F1B94CF7BB422 /* Development Pods */ = {
+		FB83298E7288FAF480F1F9BE94BEC40A /* CJLCustomKit */ = {
 			isa = PBXGroup;
 			children = (
-				D7420C9B063BD27C78E4EDB6A1820D67 /* CJLCustomKit */,
+				89831D044BD5E90CB94EFCB8E058A308 /* CJLConditionLock.h */,
+				397DC5F2F8F692C9AD429080E9814AF4 /* CJLConditionLock.m */,
+				9CF5352CFB6069D57D8D74F03927FC2F /* CJLCountDownButton.h */,
+				A913D5BC0BB3E83A3D000DEAB536B271 /* CJLCountDownButton.m */,
+				0BA95BE57A71BFE75DDDC16C124CE23F /* NSObject+CJLKVC.h */,
+				46C9B501C8ABD7FA580356E02224199A /* NSObject+CJLKVC.m */,
+				303984F1C076C5437488AAB90DA5BD7B /* NSObject+CJLKVO.h */,
+				1EC4A8C071A69C4387DBA8CF0A99800D /* NSObject+CJLKVO.m */,
+				468791C438C4AFAC24FAE8593C75F060 /* Pod */,
+				2B1ECDBB3B35071547153E57890DD71F /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F4018075B47784D939A078335EE1F689 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				290169001085A7104D7EACF23B375447 /* CJLCustomKit.modulemap */,
-				D1D0403B9ECDCFB0AB3AB192E8628008 /* CJLCustomKit-dummy.m */,
-				CE697C1AB1321370109AF28A9CC2B1D7 /* CJLCustomKit-Info.plist */,
-				D57F943CBDBB726AFCC718073CB73F3A /* CJLCustomKit-prefix.pch */,
-				D34C94DDD609F8E81E9C4DEB7A1C38B3 /* CJLCustomKit-umbrella.h */,
-				8FD92DC69D5EAB221C376BE214B4190E /* CJLCustomKit.debug.xcconfig */,
-				322445508BB76A8E87C18DF0E1557CA3 /* CJLCustomKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CJLCustomKit";
+			name = CJLCustomKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,20 +255,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49DEBF4AC174B2E8DED0D02A1B85453A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11F3F131C7E475324C7E6CEA707166D1 /* CJLCountDownButton.h in Headers */,
-				0CA5887C8DDFF796D6010C833A06C045 /* CJLCustomKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4D6FED2235489CE3B8E975FAF30E3EAF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D64E5AA23E4996FDC2D4525DA22914F /* Pods-CJLCustomKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BC8A22469124B1B31EE8181FFBB136 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5FC958469DFE2E3375A98D990EE7C5 /* CJLConditionLock.h in Headers */,
+				A7BBA785D4A04A8F26C0C2DF7F645A26 /* CJLCountDownButton.h in Headers */,
+				EB8EE6E12C5BC607703E72957FBDA07E /* CJLCustomKit-umbrella.h in Headers */,
+				464EFD206BFABA0C51F8279635FCA068 /* NSObject+CJLKVC.h in Headers */,
+				2A7A850E26BA0C08C4C5C2E1C7ED22D3 /* NSObject+CJLKVO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +290,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C2C7DC9C3C55C84D2742D6DD6858B466 /* PBXTargetDependency */,
+				16BEFA126169AA57C2CC5AC92C521E82 /* PBXTargetDependency */,
 			);
 			name = "Pods-CJLCustomKit_Example";
 			productName = "Pods-CJLCustomKit_Example";
@@ -288,7 +309,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				171404F0FF15ED81F6DC0BDA54D2C5E0 /* PBXTargetDependency */,
+				2778922667A215DD9B8A937F17C7BF14 /* PBXTargetDependency */,
 			);
 			name = "Pods-CJLCustomKit_Tests";
 			productName = "Pods-CJLCustomKit_Tests";
@@ -297,12 +318,12 @@
 		};
 		C7583F6D04C80711F9146B9167F6BDE3 /* CJLCustomKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 646A3C87ADB694FAF03FD91519B8C7F7 /* Build configuration list for PBXNativeTarget "CJLCustomKit" */;
+			buildConfigurationList = 9B089AC5EEFB45FC4034078BEBE065B2 /* Build configuration list for PBXNativeTarget "CJLCustomKit" */;
 			buildPhases = (
-				49DEBF4AC174B2E8DED0D02A1B85453A /* Headers */,
-				B82D9C88033455E58ABAEF555ECC9443 /* Sources */,
-				20FD3F737E6622BCADBECA752284A867 /* Frameworks */,
-				01FF4357070D7F408385D2683FE9B9BE /* Resources */,
+				C1BC8A22469124B1B31EE8181FFBB136 /* Headers */,
+				C4C259A3CDC7DA02888CE91A91468753 /* Sources */,
+				19D59098AE11FF54F70B7C66B5527998 /* Frameworks */,
+				596D1A0AD745BCF03578CFD5B5B4B395 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +364,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01FF4357070D7F408385D2683FE9B9BE /* Resources */ = {
+		596D1A0AD745BCF03578CFD5B5B4B395 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,12 +396,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B82D9C88033455E58ABAEF555ECC9443 /* Sources */ = {
+		C4C259A3CDC7DA02888CE91A91468753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162B2C47F49DFAFD52226BA8C8F392D8 /* CJLCountDownButton.m in Sources */,
-				0BCC87E98E85214F45C65E34296A7302 /* CJLCustomKit-dummy.m in Sources */,
+				1997D4A163AAC87CFA8089E445AFCBC6 /* CJLConditionLock.m in Sources */,
+				C0C9682EE17C277B0A2A5DCFDA222274 /* CJLCountDownButton.m in Sources */,
+				96691492A6E8BB4EDCA3E32FC3784796 /* CJLCustomKit-dummy.m in Sources */,
+				28C121C88171D328BCC22A19693A2503 /* NSObject+CJLKVC.m in Sources */,
+				DF9A6D92A1CF611A54A40D8638897422 /* NSObject+CJLKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,82 +419,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		171404F0FF15ED81F6DC0BDA54D2C5E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CJLCustomKit_Example";
-			target = 3C1E2E5AB4776E8E04DA4E6F68922A16 /* Pods-CJLCustomKit_Example */;
-			targetProxy = 1BDA650456328D810233571200034726 /* PBXContainerItemProxy */;
-		};
-		C2C7DC9C3C55C84D2742D6DD6858B466 /* PBXTargetDependency */ = {
+		16BEFA126169AA57C2CC5AC92C521E82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CJLCustomKit;
 			target = C7583F6D04C80711F9146B9167F6BDE3 /* CJLCustomKit */;
-			targetProxy = 30C1463C6DD2584718D4D9F2874C71D8 /* PBXContainerItemProxy */;
+			targetProxy = 404DF41ADF353F9D167C9B6E18958844 /* PBXContainerItemProxy */;
+		};
+		2778922667A215DD9B8A937F17C7BF14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CJLCustomKit_Example";
+			target = 3C1E2E5AB4776E8E04DA4E6F68922A16 /* Pods-CJLCustomKit_Example */;
+			targetProxy = 6E7CFD5B9E0699F192348FB2C3D9F8E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01522504C9505AEEE33A2B7C59A511A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FD92DC69D5EAB221C376BE214B4190E /* CJLCustomKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJLCustomKit/CJLCustomKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit.modulemap";
-				PRODUCT_MODULE_NAME = CJLCustomKit;
-				PRODUCT_NAME = CJLCustomKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		34607E5B75455269F04B85E3AE6110F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 322445508BB76A8E87C18DF0E1557CA3 /* CJLCustomKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CJLCustomKit/CJLCustomKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit.modulemap";
-				PRODUCT_MODULE_NAME = CJLCustomKit;
-				PRODUCT_NAME = CJLCustomKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		35A3105C13CAAB5BE505B30B0FB392BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33F26528CA86AACC34008CA3C71AA12A /* Pods-CJLCustomKit_Example.debug.xcconfig */;
@@ -502,6 +465,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		62A8D0C7F63FFE56288DB78D55E7106E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5457DEBC42A4AD2821EDB67FDAE16B1 /* CJLCustomKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CJLCustomKit/CJLCustomKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit.modulemap";
+				PRODUCT_MODULE_NAME = CJLCustomKit;
+				PRODUCT_NAME = CJLCustomKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -558,11 +552,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		7E504E3A596A04501DE029727CA01F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C50B11B7D753C17C89DB2D545C7319 /* CJLCustomKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CJLCustomKit/CJLCustomKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CJLCustomKit/CJLCustomKit.modulemap";
+				PRODUCT_MODULE_NAME = CJLCustomKit;
+				PRODUCT_NAME = CJLCustomKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A900491584432DD023F76B94E6E85EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -758,11 +783,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		646A3C87ADB694FAF03FD91519B8C7F7 /* Build configuration list for PBXNativeTarget "CJLCustomKit" */ = {
+		9B089AC5EEFB45FC4034078BEBE065B2 /* Build configuration list for PBXNativeTarget "CJLCustomKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01522504C9505AEEE33A2B7C59A511A8 /* Debug */,
-				34607E5B75455269F04B85E3AE6110F1 /* Release */,
+				7E504E3A596A04501DE029727CA01F39 /* Debug */,
+				62A8D0C7F63FFE56288DB78D55E7106E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

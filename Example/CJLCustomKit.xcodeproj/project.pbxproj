@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1576E691FD42B62231C58958 /* Pods_CJLCustomKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJLCustomKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF3099FD831E1430D5C9CCA /* Pods-CJLCustomKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLCustomKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CJLCustomKit_Example/Pods-CJLCustomKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		59BDE71A1D5A6277AE14A3FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		59BDE71A1D5A6277AE14A3FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CJLCustomKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJLCustomKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E2FC0BB0D01612E916755FD /* Pods_CJLCustomKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJLCustomKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37776A89BBDC06A95843ABB /* Pods-CJLCustomKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLCustomKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CJLCustomKit_Example/Pods-CJLCustomKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D42CB67B54B72209024B9B43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D42CB67B54B72209024B9B43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E34DB1D5F42CF0C59FEBE7E7 /* Pods-CJLCustomKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJLCustomKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CJLCustomKit_Tests/Pods-CJLCustomKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED001C2A18DF0E74552B227D /* CJLCustomKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJLCustomKit.podspec; path = ../CJLCustomKit.podspec; sourceTree = "<group>"; };
+		ED001C2A18DF0E74552B227D /* CJLCustomKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJLCustomKit.podspec; path = ../CJLCustomKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				E34DB1D5F42CF0C59FEBE7E7 /* Pods-CJLCustomKit_Tests.debug.xcconfig */,
 				7E5FC3F2F5360BAEF1751960 /* Pods-CJLCustomKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -501,6 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -517,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

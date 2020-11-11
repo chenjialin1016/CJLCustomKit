@@ -1,5 +1,5 @@
 PODS:
-  - CJLCustomKit (0.1.0)
+  - CJLCustomKit (0.0.3)
 
 DEPENDENCIES:
   - CJLCustomKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CJLCustomKit: 0d2448b7ffade59ba8bb422a10fc0620c54af1ac
+  CJLCustomKit: d815bdda455545c87dd8f17c12e5bdc4b8d16020
 
-PODFILE CHECKSUM: a6aa5b37ad784e2364f03d1085f84ba589363d64
+PODFILE CHECKSUM: 980a459e02f7abb9bc2a9937463a36da8f206a1f
 
 COCOAPODS: 1.10.0

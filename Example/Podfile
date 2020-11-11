@@ -2,9 +2,11 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'CJLCustomKit_Example' do
   pod 'CJLCustomKit', :path => '../'
-
+  #pod 'CJLCustomKit', :git => 'https://github.com/chenjialin1016/CJLCustomKit.git'
   target 'CJLCustomKit_Tests' do
     inherit! :search_paths
 
